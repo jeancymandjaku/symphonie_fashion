@@ -5,12 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-  "build": "vite build",
-    "build:cloudflare": "vinxi build --preset cloudflare-pages",
-    "build:vercel": "vinxi build --preset vercel",
+  "build": "vinxi build --preset vercel",
     "preview": "vite preview",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+  "lint": "eslint .",
+  "format": "prettier --write ."
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
